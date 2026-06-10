@@ -1,0 +1,8 @@
+{
+  "HSR_ANCIENTS_STS2-SNAKE_MASK.description": "Upon pickup, choose [blue]3[/blue] cards in your [gold]Deck[/gold]. [gold]Enchant[/gold] them with [purple]Slither[/purple].",
+  "HSR_ANCIENTS_STS2-SNAKE_MASK.flavor": "A mask the resembles a legendary serpent found deep in the Spire",
+  "HSR_ANCIENTS_STS2-SNAKE_MASK.title": "Snake Mask",
+  "HSR_ANCIENTS_STS2-PAIR_OF_ACES.description": "At the start of combat, choose [blue]2[/blue] cards from your draw pile. Randomly exhaust one and add the other to your [gold]Hand[/gold]. The one added to your [gold]Hand[/gold] is free to play this turn.",
+  "HSR_ANCIENTS_STS2-PAIR_OF_ACES.flavor": "Let's go Gambling!!!",
+  "HSR_ANCIENTS_STS2-PAIR_OF_ACES.title": "Pair Of Aces"
+}

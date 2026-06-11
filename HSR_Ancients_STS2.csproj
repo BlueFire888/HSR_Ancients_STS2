@@ -60,7 +60,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="HSR_Ancients_STS2\images\card_portraits\big\" />
       <Folder Include="HSR_Ancients_STS2\images\enchantments\" />
       <Folder Include="HSR_Ancients_STS2\images\powers\big\" />
     </ItemGroup>

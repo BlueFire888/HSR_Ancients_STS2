@@ -2,11 +2,13 @@
 using BaseLib.Extensions;
 using BaseLib.Utils;
 using HSR_Ancients_STS2.HSR_Ancients_STS2Code.Extensions;
+using HSR_Ancients_STS2.HSR_Ancients_STS2Code.Powers;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Cards;
@@ -50,10 +52,9 @@ namespace HSR_Ancients_STS2.HSR_Ancients_STS2Code.Cards
         protected override async Task OnTurnEndInHand(PlayerChoiceContext choiceContext)
         {
             HideousLaughter cardSource = this;
-            PowerModel powerModel = (PowerModel) await PowerCmd.Apply<RingingPower>(choiceContext, cardSource.Owner.Creature, 1M, (Creature)null, (CardModel)cardSource);
+            PowerModel powerModel = (PowerModel) await PowerCmd.Apply<RingingNextTurnPower>(choiceContext, cardSource.Owner.Creature, 1M, (Creature)null, (CardModel)cardSource);
             if (powerModel == null)
                 return;
-            powerModel.SkipNextDurationTick = true;
         }
     }
 }

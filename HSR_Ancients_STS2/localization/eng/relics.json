@@ -5,7 +5,11 @@
   "HSR_ANCIENTS_STS2-PAIR_OF_ACES.description": "At the start of combat, choose [blue]2[/blue] cards from your draw pile. Randomly exhaust one and add the other to your [gold]Hand[/gold]. The one added to your [gold]Hand[/gold] is free to play this turn.",
   "HSR_ANCIENTS_STS2-PAIR_OF_ACES.flavor": "Let's go Gambling!!!",
   "HSR_ANCIENTS_STS2-PAIR_OF_ACES.title": "Pair Of Aces",
-  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.description": "",
-  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.flavor": "",
-  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.title": "Worlds Funniest Joke"
+  "HSR_ANCIENTS_STS2-PAIR_OF_ACES.selectionScreenPrompt": "Select 2 cards, one will be Exhausted and one will be added to your Hand",
+  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.description": "Upon pickup, add [blue]1[/blue] [red]Hideous Laughter[/red] to your [gold]Deck[/gold]. Gain {Energy:energyIcons()} at the start of each turn.",
+  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.flavor": "lmao",
+  "HSR_ANCIENTS_STS2-WORLDS_FUNNIEST_JOKE.title": "Worlds Funniest Joke",
+  "HSR_ANCIENTS_STS2-SPARKLING_PLUSHIE.description": "Upon pickup, add [blue]1[/blue] [gold]Big Red Button[/gold] to your [gold]Deck[/gold]",
+  "HSR_ANCIENTS_STS2-SPARKLING_PLUSHIE.flavor": "A doll resembeling a michevious figure. It seems very dangerous, or very hugable, your not sure.",
+  "HSR_ANCIENTS_STS2-SPARKLING_PLUSHIE.title": "Sparkling Plushie"
 }
